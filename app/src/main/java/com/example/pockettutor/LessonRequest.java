@@ -5,7 +5,7 @@ import android.os.Environment;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
-import android.widget.EditText;
+
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -18,14 +18,14 @@ import java.io.FileOutputStream;
 import java.nio.channels.FileChannel;
 
 public class LessonRequest extends AppCompatActivity {
-	Database myDB;
+	DatabaseOpenHelper myDB;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_lesson_request);
 
-		myDB = new Database(this);
+		myDB = new DatabaseOpenHelper(this);
 
 		final TextInputLayout subjectForm = findViewById(R.id.SubjectForm);
 		final TextInputLayout topicForm = findViewById(R.id.TopicForm);
