@@ -21,16 +21,5 @@ public class LessonPicker extends AppCompatActivity {
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setHasFixedSize(true);
-
-        final STRAdapter adapter = new STRAdapter();
-        recyclerView.setAdapter(adapter);
-
-        STRViewModel strViewModel = new ViewModelProvider(this).get(STRViewModel.class);
-        strViewModel.getAllData().observe(this, new Observer<List<STRDB>>() {
-            @Override
-            public void onChanged(List<STRDB> strdbs) {
-                adapter.setData(strdbs);
-            }
-        });
     }
 }

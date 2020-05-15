@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 		StudentButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				startActivity(new Intent(MainActivity.this, LessonRequest.class));
+				startActivity(new Intent(MainActivity.this, studentLogin.class));
 			}
 		});
 
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 		TutorButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				startActivity(new Intent(MainActivity.this, LessonPicker.class));
+				startActivity(new Intent(MainActivity.this, tutorLogin.class));
 			}
 		});
 

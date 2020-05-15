@@ -6,16 +6,12 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.google.android.material.textfield.TextInputLayout;
+import java.util.Objects;
 
 
 public class LessonRequest extends AppCompatActivity {
@@ -43,11 +39,10 @@ public class LessonRequest extends AppCompatActivity {
 		Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
 	}
 
-
 	private void hideKeyboard() {
 		View view = getCurrentFocus();
 		if (view != null) {
-			((InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE)).
+			((InputMethodManager) Objects.requireNonNull(getSystemService(Context.INPUT_METHOD_SERVICE))).
 					hideSoftInputFromWindow(view.getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
 		}
 	}

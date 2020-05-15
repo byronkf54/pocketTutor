@@ -3,4 +3,16 @@
     <string name="student">Student</string>
     <string name="tutor">Tutor</string>
     <string name="multilines">subject\ntopic</string>
+    <string name="lesson_request">Lesson Request</string>
+    <string name="subject_name">Subject Name</string>
+    <string name="topic_description">Topic Description</string>
+    <string name="enter_lesson_space">Enter Lesson Space</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="not_registered">Not Registered</string>
+    <string name="registered">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="create_account">CREATE ACCOUNT</string>
 </resources>

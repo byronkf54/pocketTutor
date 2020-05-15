@@ -13,7 +13,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="108dp"
         android:layout_marginEnd="8dp"
-        android:hint="Subject Name"
+        android:hint="@string/subject_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,15 +22,14 @@
         android:id="@+id/LessonRequest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:clickable="false"
         android:contextClickable="false"
-        android:cursorVisible="false"
         android:ems="10"
         android:enabled="true"
-        android:text="Lesson Request"
+        android:gravity="center"
+        android:text="@string/lesson_request"
         android:textColor="#000000"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +43,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="215dp"
         android:layout_marginEnd="8dp"
-        android:hint="Topic Description"
+        android:hint="@string/topic_description"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -56,12 +55,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="65dp"
         android:layout_marginTop="350dp"
-        android:text="Enter Lesson Space"
+        android:text="@string/enter_lesson_space"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
