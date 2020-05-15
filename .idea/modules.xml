@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/PTAS.iml" filepath="$PROJECT_DIR$/.idea/PTAS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="pocketTutor/app" />
+      <module fileurl="file://$PROJECT_DIR$/pocketTutor.iml" filepath="$PROJECT_DIR$/pocketTutor.iml" group="pocketTutor" />
+    </modules>
+  </component>
+</project>

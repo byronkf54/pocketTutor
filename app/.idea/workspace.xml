@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2840b5e5-8c16-4533-97a7-9d45592a204e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/assets/databases/pt.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pockettutor/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pockettutor/LessonPicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pockettutor/STRAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pockettutor/STRDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pockettutor/STRDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pockettutor/STRRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pockettutor/STRViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_lesson_picker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/display_sub_top.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pt.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assets/databases/pocketTutor.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pockettutor/DatabaseAccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pockettutor/DatabaseOpenHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pockettutor/LessonRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/pockettutor/LessonRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/pockettutor/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/pockettutor/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_lesson_request.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_lesson_request.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\byron\Documents\GitHub\pocketTutor\app\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1blRuf39KILUeU49JEURfaPkCMv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2840b5e5-8c16-4533-97a7-9d45592a204e" name="Default Changelist" comment="" />
+      <created>1589204917707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589204917707</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

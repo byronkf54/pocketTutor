@@ -2,4 +2,5 @@
     <string name="app_name">pocketTutor</string>
     <string name="student">Student</string>
     <string name="tutor">Tutor</string>
+    <string name="multilines">subject\ntopic</string>
 </resources>
