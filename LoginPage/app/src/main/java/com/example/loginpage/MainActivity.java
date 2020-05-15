@@ -34,11 +34,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onLogin(View view) {
-        String username = UsernameET.getText().toString();
-        String password = PasswordET.getText().toString();
+        AES aes = new AES();
+        String UID = aes.encrypt(UsernameET.getText().toString());
+        String passwordAES = aes.encrypt(PasswordET.getText().toString());
+
         String type = "login";
 
         backgroundWorker backgroundWorker = new backgroundWorker(this);
-        backgroundWorker.execute(type, username, password);
+        backgroundWorker.execute(type, UID, passwordAES);
     }
 }

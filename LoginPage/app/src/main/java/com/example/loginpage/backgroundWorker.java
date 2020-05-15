@@ -27,9 +27,10 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
     @Override
     protected String doInBackground(String ... params) {
         String type = params[0];
-        String login_url = "http://82.14.146.3:80/login.php";
+
         if (type.equals("login")) {
             try {
+                String login_url = "http://82.14.146.3:80/login.php";
                 URL url = new URL(login_url);
 
                 HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
@@ -41,7 +42,7 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
                 BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
 
                 // username and password strings
-                String post_data = URLEncoder.encode("Username", "UTF-8")+"="+URLEncoder.encode(params[1], "UTF-8")+"&"+
+                String post_data = URLEncoder.encode("UID", "UTF-8")+"="+URLEncoder.encode(params[1], "UTF-8")+"&"+
                     URLEncoder.encode("Password", "UTF-8")+"="+URLEncoder.encode(params[2], "UTF-8");
                 bufferedWriter.write(post_data);
                 bufferedWriter.flush();
@@ -59,7 +60,6 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
                 inputStream.close();
                 httpURLConnection.disconnect();
                 return result;
-
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             } catch (IOException e) {
@@ -67,7 +67,43 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
             }
         }
         else if (type.equals("register")) {
+            try {
+                String login_url = "http://82.14.146.3:80/addLogin.php";
+                URL url = new URL(login_url);
 
+                HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
+                httpURLConnection.setRequestMethod("POST");
+                httpURLConnection.setDoOutput(true);
+                httpURLConnection.setDoInput(true);
+
+                OutputStream outputStream = httpURLConnection.getOutputStream();
+                BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(outputStream, "UTF-8"));
+
+                // username and password strings
+                String post_data = URLEncoder.encode("UID", "UTF-8") + "=" + URLEncoder.encode(params[1], "UTF-8") + "&" +
+                        URLEncoder.encode("Username", "UTF-8") + "=" + URLEncoder.encode(params[2], "UTF-8") + "&" +
+                        URLEncoder.encode("Password", "UTF-8") + "=" + URLEncoder.encode(params[3], "UTF-8");
+                bufferedWriter.write(post_data);
+                bufferedWriter.flush();
+                bufferedWriter.close();
+                outputStream.close();
+
+                InputStream inputStream = httpURLConnection.getInputStream();
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream, "iso-8859-1"));
+                String result = "";
+                String line;
+                while ((line = bufferedReader.readLine()) != null) {
+                    result += line;
+                }
+                bufferedReader.close();
+                inputStream.close();
+                httpURLConnection.disconnect();
+                return result;
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
         return null;
     }
@@ -80,6 +116,9 @@ public class backgroundWorker extends AsyncTask<String, Void, String> {
 
     @Override
     protected void onPostExecute(String result) {
+        if (result.equals("0")) {
+            result = "Sorry that user already exists";
+        }
         alertDialog.setMessage(result);
         alertDialog.show();
     }

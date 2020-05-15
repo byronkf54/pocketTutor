@@ -4,10 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Register extends AppCompatActivity {
     EditText usernameET;
@@ -26,23 +28,41 @@ public class Register extends AppCompatActivity {
         confirm_passwordET = findViewById(R.id.confirm_password);
         register = findViewById(R.id.register);
         create_account = findViewById(R.id.create_account);
-        create_account.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent LoginIntent = new Intent(Register.this, MainActivity.class);
-            }
-        });
     }
 
-    public void onRegister() {
-        // check password
-        // hash password
-        String username = usernameET.getText().toString();
-        String password = passwordET.getText().toString();
-        String type = "register";
+    public void Login(View view) {
+        Intent RegisterIntent = new Intent(Register.this, MainActivity.class);
+        startActivity(RegisterIntent);
+    }
 
-        backgroundWorker backgroundWorker = new backgroundWorker(this);
-        backgroundWorker.execute(type, username, password);
+
+    public void onRegister(View view) {
+        // encrypt
+        AES aes = new AES();
+        String username = usernameET.getText().toString();
+        String UID = aes.encrypt(username);
+        String passwordAES = aes.encrypt(passwordET.getText().toString());
+        String confAES = aes.encrypt(confirm_passwordET.getText().toString());
+
+
+        if (!passwordAES.equals(confAES)) {
+            Toast toast = Toast.makeText(this, "Those passwords don't match, please try again.", Toast.LENGTH_SHORT);
+            toast.show();
+            Intent RegisterIntent = new Intent(Register.this, MainActivity.class);
+            startActivity(RegisterIntent);
+
+        }
+        else if (passwordAES.length() < 8) {
+            Toast toast = Toast.makeText(this, "That password is not long enough, please try again.", Toast.LENGTH_SHORT);
+            toast.show();
+            Intent RegisterIntent = new Intent(Register.this, MainActivity.class);
+            startActivity(RegisterIntent);
+        }
+        else {
+            String type = "register";
+            backgroundWorker backgroundWorker = new backgroundWorker(this);
+            backgroundWorker.execute(type, UID, username, passwordAES);
+        }
 
     }
 }

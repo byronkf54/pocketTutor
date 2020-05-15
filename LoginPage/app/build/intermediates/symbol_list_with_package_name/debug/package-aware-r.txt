@@ -735,7 +735,6 @@ id actions
 id activity_chooser_view_content
 id add
 id alertTitle
-id already_registered
 id always
 id async
 id barrier
@@ -790,7 +789,6 @@ id multiply
 id never
 id none
 id normal
-id not_registered
 id notification_background
 id notification_main_column
 id notification_main_column_container
