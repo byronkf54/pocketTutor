@@ -1392,8 +1392,10 @@ id BOTTOM_START
 id CTRL
 id EnterLessonSpace
 id FUNCTION
+id LOGOUT
 id LessonRequest
 id META
+id RecyclerView
 id SHIFT
 id SYM
 id StudentButton
@@ -1598,7 +1600,6 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
-id recycler_view
 id register
 id right
 id right_icon
@@ -1665,6 +1666,8 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textViewSubject
+id textViewTopic
 id text_input_end_icon
 id text_input_start_icon
 id text_view_subject
@@ -1780,6 +1783,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout display_sub_top
+layout list_item
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -1876,9 +1880,11 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string heading
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string lesson_request
+string log_out
 string login
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description

@@ -5,88 +5,87 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="27"
-8-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml
+8        android:minSdkVersion="26"
+8-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml
+9-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:4:5-66
-11-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:4:22-64
+11-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:4:22-64
 12
 13    <application
-13-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:6:5-27:19
+13-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:6:5-27:19
 14        android:allowBackup="true"
-14-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:7:9-35
+14-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:7:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 15-->[androidx.core:core:1.1.0] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
 16        android:debuggable="true"
 17        android:extractNativeLibs="false"
 18        android:icon="@mipmap/ic_launcher"
-18-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:8:9-43
+18-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:8:9-43
 19        android:label="@string/app_name"
-19-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:9:9-41
+19-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:9:9-41
 20        android:roundIcon="@mipmap/ic_launcher_round"
-20-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:10:9-54
+20-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:10:9-54
 21        android:supportsRtl="true"
-21-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:11:9-35
-22        android:testOnly="true"
-23        android:theme="@style/AppTheme"
-23-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:12:9-40
-24        android:usesCleartextTraffic="true" >
-24-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:13:9-44
-25        <activity android:name="com.example.pockettutor.LessonPicker" />
-25-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:14:9-50
-25-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:14:19-47
-26        <activity android:name="com.example.pockettutor.LessonRequest" />
-26-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:15:9-51
-26-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:15:19-48
-27        <activity android:name="com.example.pockettutor.addTutor" />
-27-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:16:9-46
-27-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:16:19-43
-28        <activity android:name="com.example.pockettutor.addStudent" />
-28-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:17:9-48
-28-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:17:19-45
-29        <activity android:name="com.example.pockettutor.studentLogin" />
-29-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:18:9-50
-29-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:18:19-47
-30        <activity android:name="com.example.pockettutor.tutorLogin" />
-30-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:19:9-48
-30-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:19:19-45
-31        <activity android:name="com.example.pockettutor.MainActivity" >
-31-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:20:9-26:20
-31-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:20:19-47
-32            <intent-filter>
-32-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:21:13-25:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:22:17-69
-33-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:22:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:24:17-77
-35-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:24:27-74
-36            </intent-filter>
-37        </activity>
-38
-39        <service
-39-->[androidx.room:room-runtime:2.2.5] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\ff92c23acb3ff63da9830c47d6fbd82e\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
-40            android:name="androidx.room.MultiInstanceInvalidationService"
-40-->[androidx.room:room-runtime:2.2.5] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\ff92c23acb3ff63da9830c47d6fbd82e\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
-41            android:directBootAware="true"
-41-->[androidx.room:room-runtime:2.2.5] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\ff92c23acb3ff63da9830c47d6fbd82e\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
-42            android:exported="false" />
-42-->[androidx.room:room-runtime:2.2.5] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\ff92c23acb3ff63da9830c47d6fbd82e\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
-43
-44        <provider
-44-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-45            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-45-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-46            android:authorities="com.example.pockettutor.lifecycle-process"
-46-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-47            android:exported="false"
-47-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-48            android:multiprocess="true" />
-48-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-49    </application>
-50
-51</manifest>
+21-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:11:9-35
+22        android:theme="@style/AppTheme"
+22-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:12:9-40
+23        android:usesCleartextTraffic="true" >
+23-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:13:9-44
+24        <activity android:name="com.example.pockettutor.LessonDisplay" />
+24-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:14:9-51
+24-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:14:19-48
+25        <activity android:name="com.example.pockettutor.LessonRequest" />
+25-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:15:9-51
+25-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:15:19-48
+26        <activity android:name="com.example.pockettutor.addTutor" />
+26-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:16:9-46
+26-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:16:19-43
+27        <activity android:name="com.example.pockettutor.addStudent" />
+27-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:17:9-48
+27-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:17:19-45
+28        <activity android:name="com.example.pockettutor.studentLogin" />
+28-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:18:9-50
+28-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:18:19-47
+29        <activity android:name="com.example.pockettutor.tutorLogin" />
+29-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:19:9-48
+29-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:19:19-45
+30        <activity android:name="com.example.pockettutor.MainActivity" >
+30-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:20:9-26:20
+30-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:20:19-47
+31            <intent-filter>
+31-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:21:13-25:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:22:17-69
+32-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:22:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:24:17-77
+34-->C:\Users\byron\Documents\pocketTutor\app\src\main\AndroidManifest.xml:24:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <service
+38-->[androidx.room:room-runtime:2.2.5] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\ff92c23acb3ff63da9830c47d6fbd82e\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+39            android:name="androidx.room.MultiInstanceInvalidationService"
+39-->[androidx.room:room-runtime:2.2.5] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\ff92c23acb3ff63da9830c47d6fbd82e\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+40            android:directBootAware="true"
+40-->[androidx.room:room-runtime:2.2.5] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\ff92c23acb3ff63da9830c47d6fbd82e\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+41            android:exported="false" />
+41-->[androidx.room:room-runtime:2.2.5] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\ff92c23acb3ff63da9830c47d6fbd82e\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+42
+43        <provider
+43-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+44            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+44-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+45            android:authorities="com.example.pockettutor.lifecycle-process"
+45-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+46            android:exported="false"
+46-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+47            android:multiprocess="true" />
+47-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\byron\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+48    </application>
+49
+50</manifest>
