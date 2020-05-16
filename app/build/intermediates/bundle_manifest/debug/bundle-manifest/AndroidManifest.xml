@@ -22,7 +22,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.example.pockettutor.LessonPicker" />
+        <activity android:name="com.example.pockettutor.LessonDisplay" />
         <activity android:name="com.example.pockettutor.LessonRequest" />
         <activity android:name="com.example.pockettutor.addTutor" />
         <activity android:name="com.example.pockettutor.addStudent" />

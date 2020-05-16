@@ -35,9 +35,9 @@
 23-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:12:9-40
 24        android:usesCleartextTraffic="true" >
 24-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:13:9-44
-25        <activity android:name="com.example.pockettutor.LessonPicker" />
-25-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:14:9-50
-25-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:14:19-47
+25        <activity android:name="com.example.pockettutor.LessonDisplay" />
+25-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:14:9-51
+25-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:14:19-48
 26        <activity android:name="com.example.pockettutor.LessonRequest" />
 26-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:15:9-51
 26-->C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:15:19-48

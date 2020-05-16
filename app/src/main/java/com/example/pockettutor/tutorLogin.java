@@ -48,7 +48,6 @@ public class tutorLogin extends AppCompatActivity {
         String type = "studentLogin";
 
         backgroundWorker background_worker = new backgroundWorker(this);
-        background_worker.execute(type, UID, username, passwordAES, "0");
-
+        background_worker.execute(type, UID, username, passwordAES, "1");
     }
 }

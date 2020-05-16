@@ -16,6 +16,7 @@ public class addStudent extends AppCompatActivity {
     EditText confirm_passwordET;
     Button create_account;
     TextView register;
+    String UID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +40,7 @@ public class addStudent extends AppCompatActivity {
         // encrypt
         AES aes = new AES();
         String username = UsernameET.getText().toString();
-        String UID = aes.encrypt(username);
+        UID = aes.encrypt(username);
         String passwordAES = aes.encrypt(PasswordET.getText().toString());
         String confAES = aes.encrypt(confirm_passwordET.getText().toString());
 

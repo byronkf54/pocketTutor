@@ -15,4 +15,6 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="already_registered">Already Registered?</string>
     <string name="create_account">CREATE ACCOUNT</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="heading">Heading</string>
 </resources>

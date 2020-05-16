@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".LessonPicker" />
+        <activity android:name=".LessonDisplay" />
         <activity android:name=".LessonRequest" />
         <activity android:name=".addTutor" />
         <activity android:name=".addStudent" />

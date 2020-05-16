@@ -59,7 +59,7 @@ public class addTutor extends AppCompatActivity {
         else {
             String type = "addStudent";
             backgroundWorker background_worker = new backgroundWorker(this);
-            background_worker.execute(type, UID, username, passwordAES, "0");
+            background_worker.execute(type, UID, username, passwordAES, "1");
             PasswordET.clearComposingText();
         }
 

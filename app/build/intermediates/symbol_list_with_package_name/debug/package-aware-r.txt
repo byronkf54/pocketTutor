@@ -1392,6 +1392,7 @@ id BOTTOM_START
 id CTRL
 id EnterLessonSpace
 id FUNCTION
+id LOGOUT
 id LessonRequest
 id META
 id SHIFT
@@ -1879,6 +1880,7 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string lesson_request
+string log_out
 string login
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description

@@ -88,10 +88,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\by
 		ADDED from C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:12:9-40
 	android:usesCleartextTraffic
 		ADDED from C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:13:9-44
-activity#com.example.pockettutor.LessonPicker
-ADDED from C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:14:9-50
+activity#com.example.pockettutor.LessonDisplay
+ADDED from C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:14:9-51
 	android:name
-		ADDED from C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:14:19-48
 activity#com.example.pockettutor.LessonRequest
 ADDED from C:\Users\byron\Documents\GitHub\pocketTutor\app\src\main\AndroidManifest.xml:15:9-51
 	android:name
